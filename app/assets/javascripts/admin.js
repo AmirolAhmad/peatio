@@ -1,4 +1,3 @@
-//= require yarn_components/raven-js/dist/raven
 //= require ./lib/sentry
 
 //= require jquery
