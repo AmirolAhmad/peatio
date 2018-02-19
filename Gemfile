@@ -89,3 +89,11 @@ group :test do
   gem 'chromedriver-helper', '~> 1.1'
   gem 'rack_session_access', '~> 0.1'
 end
+
+group :development do
+  gem 'capistrano', '~> 3.9'
+  gem 'capistrano-bundler', '~> 1.3'
+  gem 'capistrano-rails', '~> 1.1'
+  gem 'capistrano-rbenv', '~> 2.1'
+  gem 'capistrano-faster-assets', '~> 1.0'
+end
